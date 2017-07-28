@@ -1,0 +1,35 @@
+{
+  "name": "ts-react-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/enzyme": "^2.8.4",
+    "@types/jest": "^20.0.5",
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "awesome-typescript-loader": "^3.2.2",
+    "enzyme": "^2.9.1",
+    "react-test-renderer": "^15.6.1",
+    "source-map-loader": "^0.2.1",
+    "ts-jest": "^20.0.7",
+    "tslint-react": "^3.1.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
